@@ -1,0 +1,15 @@
+{
+  "name": "popumusic-amazon-sync",
+  "version": "0.1.0",
+  "description": "Amazon SP-API to Feishu Bitable sync foundation for PopuMusic.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "sync:amazon-to-feishu": "node scripts/syncAmazonToFeishu.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "minimist": "^1.2.8"
+  },
+  "engines": { "node": ">=18" }
+}

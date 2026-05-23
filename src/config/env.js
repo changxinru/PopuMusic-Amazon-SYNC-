@@ -29,11 +29,11 @@ export function getEnv() {
     feishu: {
       appId: process.env.FEISHU_APP_ID,
       appSecret: process.env.FEISHU_APP_SECRET,
-      bitableAppToken: process.env.FEISHU_BITABLE_APP_TOKEN,
-      shipmentTableId: process.env.FEISHU_SHIPMENT_TABLE_ID,
-      returnTableId: process.env.FEISHU_RETURN_TABLE_ID,
-      skuMappingTableId: process.env.FEISHU_SKU_MAPPING_TABLE_ID,
-      syncLogTableId: process.env.FEISHU_SYNC_LOG_TABLE_ID
+      wikiToken: process.env.FEISHU_WIKI_TOKEN || 'FmDSwrmswiXKXPkvkdvcJkpJnjc',
+      spreadsheetToken: process.env.FEISHU_SPREADSHEET_TOKEN,
+      shipmentSheetId: process.env.FEISHU_SHIPMENT_SHEET_ID || 'jjsqwc',
+      returnSheetId: process.env.FEISHU_RETURN_SHEET_ID || 'aeZUjb',
+      skuMappingSheetId: process.env.FEISHU_SKU_MAPPING_SHEET_ID || 'Ujr1LB'
     },
     runtime: {
       timezone: process.env.DEFAULT_TIMEZONE || 'Asia/Shanghai',
